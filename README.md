@@ -24,7 +24,6 @@ Structural patterns deal with the composition of classes or objects and help ens
 - **Proxy**: Provides a surrogate or placeholder for another object to control access to it. This pattern can be used to add functionality like caching, lazy initialization, or access control. [Example](https://github.com/MansourJouya/DesignPattern-Proxy)
 - **Bridge**: Decouples an abstraction from its implementation so that the two can vary independently. This pattern helps in building scalable and maintainable code by separating the abstraction and its implementation. [Example](https://github.com/MansourJouya/DesignPattern-Bridge)
 - **Composite**: Composes objects into tree-like structures to represent part-whole hierarchies. This pattern helps treat individual objects and composites uniformly, which is useful for implementing complex tree structures. [Example](https://github.com/MansourJouya/DesignPattern-Composite)
-- **Flyweight**: Reduces the number of objects created by sharing instances, especially useful for programs that need to manage a large number of objects. This pattern helps conserve memory and improves performance by sharing common data. [Example](https://github.com/MansourJouya/DesignPattern-Flyweight)
 
 ### 3. Behavioral Patterns
 
@@ -40,5 +39,4 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 - **Template Method**: Defines the skeleton of an algorithm in an operation, deferring some steps to subclasses. This pattern helps avoid code duplication and promotes code reusability. [Example](https://github.com/MansourJouya/DesignPattern-TemplateMethod)
 - **Visitor**: Allows you to define a new operation without changing the classes of the elements on which it operates. This pattern is useful for adding further operations to existing object structures. [Example](https://github.com/MansourJouya/DesignPattern-Visitor)
 - **Chain of Responsibility**: Passes a request along a chain of handlers until one handles it. This pattern is useful for decoupling sender and receiver objects and enabling multiple objects to process a request. [Example](https://github.com/MansourJouya/DesignPattern-ChainOfResponsibility)
-- **Interpreter**: Defines a grammar for interpreting sentences in a language and uses this grammar to interpret sentences. This pattern is useful for implementing simple languages and expressions. [Example](https://github.com/MansourJouya/DesignPattern-Interpreter)
 
